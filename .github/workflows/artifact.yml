@@ -24,7 +24,7 @@ jobs:
     runs-on: ubuntu-latest
 
     steps:
-    - name: Upload artifact
+    - name: Download text file
       uses: actions/download-artifact@v3
       with: 
         name: hello-artifact
