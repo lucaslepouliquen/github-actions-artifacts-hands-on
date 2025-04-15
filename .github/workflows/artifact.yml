@@ -28,7 +28,7 @@ jobs:
       uses: actions/download-artifact@v3
       with: 
         name: hello-artifact
-        path: ./artifact/hello.txt
+        path: ./artifact
 
     - name: Artifact exits 
       run: grep -i "Hello" ./artifact/hello.txt
